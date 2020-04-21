@@ -6,6 +6,7 @@ li {
   background-color: #26d0c9;
   color: #fff;
   height: 90px;
+  display : block;
 }
 
 .header-logo {
@@ -17,5 +18,4 @@ li {
 .header-list li {
   float: left;
   padding: 33px 20px;
-  display : block;
 }
