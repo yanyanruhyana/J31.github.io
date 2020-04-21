@@ -14,8 +14,8 @@ li {
   padding: 20px 40px;
 }
 
-.header-list li, a{
+.header-list li{
   float: left;
   padding: 33px 20px;
-  display: inline-block;
+  display: block;
 }
