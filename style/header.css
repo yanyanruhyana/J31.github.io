@@ -32,12 +32,12 @@ li {
 .header-right{
   float: right;
   margin-right: 0px;
-  font-size: 20px;
 }
 
 .header-right li, a{
   float: left;
-  padding: 0 5px;
+  padding: 3px 10px;
+  font-size: 5px;
 }
 
 .right-li {
@@ -59,6 +59,7 @@ li {
   -o-transition: 0.3s ease all;
   transition: 0.3s ease all;
 }
+
 li:hover span.right-li{
   top: 98%
 }
