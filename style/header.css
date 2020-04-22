@@ -1,14 +1,3 @@
-a:hover{
-  background: transparent ;
-  opacity: 0.5;
-  color: #E589F5;
-}
-a{
-  color: #e9e9e9;
-  outline: none;
-  text-decoration: none;
-}
-
 .header {
   margin: 0px;
   background: rgb(0, 0, 0);
@@ -18,8 +7,57 @@ a{
   height: 60px;
 }
 
+.header a{
+  color: #e9e9e9;
+  outline: none;
+  text-decoration: none;
+}
+
 .header-logo {
-  font-size: 30px ;
+  font-size: 36px ;
   float: left;
   padding: 10px 20px;
+}
+
+a:hover{
+  background: transparent ;
+  opacity: 0.5;
+  color: #E589F5;
+}
+
+li {
+  list-style: none;
+}
+
+.header-right{
+  float: right;
+  margin-right: 0px;
+}
+
+.header-right li, a{
+  float: left;
+  padding: 0 5px;
+}
+
+.right-li {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #9c27b0;
+  position: absolute;
+  top: -2%;
+  transition:  0.3s ease all;
+}
+
+.header-right li{
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease all;
+  -webkit-transition: 0.3s ease all;
+  -moz-transition: 0.3s ease all;
+  -o-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+}
+li:hover span.right-li{
+  top: 98%
 }
