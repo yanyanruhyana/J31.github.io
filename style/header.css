@@ -5,6 +5,7 @@
   color: #fff;
   position: relative;
   height: 60px;
+  z-index : 899;
 }
 
 .header a{
@@ -34,10 +35,16 @@ li {
   margin-right: 0px;
 }
 
-.header-right li, a{
+.header-right a{
+  font-size: 20px;
+  /* margin: 0px 10px; */
+  display: block;
+}
+
+.header-right li{
   float: left;
-  padding: 3px 10px;
-  font-size: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .right-li {
@@ -46,7 +53,7 @@ li {
   height: 1px;
   background: #9c27b0;
   position: absolute;
-  top: -2%;
+  top: -5%;
   transition:  0.3s ease all;
 }
 
