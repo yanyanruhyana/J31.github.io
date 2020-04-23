@@ -1,0 +1,15 @@
+@media (max-width: 670px){
+    .navbar-right a {
+        display: none;
+    }
+
+    .navbar-right a.menu-icon {
+        display: block;
+        font-size: 30px;
+    }
+
+    .navbar-right a.menu-icon:hover {
+        background-color: rgba(10, 189, 227,0);
+        color: rgba(10, 189, 227,1.0);
+    }
+}
