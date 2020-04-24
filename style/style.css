@@ -21,7 +21,6 @@ a {
     top: 0;
     position: fixed;
     border-bottom: 2px solid rgba(10, 189, 227, 0.7);
-    opacity: 0.5;
 }
 
 .navbar-left {
@@ -61,6 +60,7 @@ a {
 .navbar-right a:hover {
     background-color: white;
     color: rgba(10, 189, 227,1.0);
+    opacity: 0.5;
 }
 
 .navbar-right a.active {
