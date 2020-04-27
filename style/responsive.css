@@ -6,6 +6,10 @@
         margin: 15px 16px;
         display: inline-block;
     }
+    
+    .img-profile img{
+        height: 15rem;
+    }
     /* About */
 
     /* Contact */
@@ -40,6 +44,10 @@
     .profiles {
         width: 60%;
         margin: 15px 18%;
+    }
+    
+    .img-profile img{
+        height: auto;
     }
     /* About */
 
