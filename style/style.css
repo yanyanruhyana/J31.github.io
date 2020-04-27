@@ -10,9 +10,9 @@ a {
 }
 
 .container {
-    max-width: 1000px;
-    padding: 0 15px;
-    margin: 0 auto;
+    /*max-width: 1000px;*/
+    padding: 0 20px;
+    margin: 0 20px;
 }
 
 .navbar {
@@ -61,6 +61,7 @@ a {
 .navbar-right a:hover {
     background-color: white;
     color: rgba(10, 189, 227,1.0);
+    opacity: 0.5;
 }
 
 .navbar-right a.active {
@@ -128,7 +129,38 @@ a {
     color: rgba(10, 189, 227,1.0);
 }
 
-/*coba*/
+.title-profile{
+    text-align: center;
+    font-size: 30px;
+    color:  white;
+    background-color: turquoise;
+}
+.profiles{
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.img-profile img{
+    width: 50%;
+    height: 50%;
+    border: 2px solid #000;
+    padding-bottom: 10px;
+}
+
+.img-profile p{
+    font-size: 20px;
+    margin: 10px auto;
+    padding-bottom: 10px;
+    border: 2px solid #000;
+}
+
+.text-profile {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
 
 /*section*/
 section{
@@ -137,12 +169,10 @@ section{
     position: relative;
     z-index: 1;
     
-    
 }
 .section-title{
     color: white;
 }
-/*profil*/
 
 /*contact us*/
 
